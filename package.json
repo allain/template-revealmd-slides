@@ -1,0 +1,21 @@
+{
+  "name": "template-revealmd-slides",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A template for writing revealmd slides.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run serve -- --static dist/",
+    "serve": "reveal-md --preprocessor ./preprocess.js --css custom.css --theme slides.md"
+  },
+  "keywords": [
+    "Revealmd",
+    "slides",
+    "reveal.js"
+  ],
+  "author": "Allain Lalonde <allain.lalonde@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "reveal-md": "^3.1.0"
+  }
+}
