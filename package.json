@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run serve -- --static dist/",
-    "serve": "reveal-md --preprocessor ./preprocess.js --css custom.css --theme black slides.md"
+    "dev": "reveal-md --watch --preprocessor ./preprocess.js --css custom.css --theme black slides.md"
   },
   "keywords": [
     "Revealmd",
