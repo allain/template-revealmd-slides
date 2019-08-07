@@ -5,8 +5,8 @@
   "description": "A template for writing revealmd slides.",
   "main": "index.js",
   "scripts": {
-    "build": "reveal-md --static dist/ --preprocessor ./preprocess.js --css custom.css --theme black slides.md",
-    "dev": "reveal-md --watch --preprocessor ./preprocess.js --css custom.css --theme black slides.md"
+    "build": "reveal-md --static dist/ --preprocessor ./preprocess.js --css custom.css slides.md",
+    "dev": "reveal-md --watch --preprocessor ./preprocess.js --css custom.css slides.md"
   },
   "keywords": [
     "Revealmd",
